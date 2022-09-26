@@ -41,7 +41,7 @@ jobs:
     - name: Download the ROM
       run: |
        cd ~
-       wget -O rom.zip $ROM_URL
+       wget -O rom.zip https://download.pixelexperience.org/changelog/hotdog/PixelExperience_Plus_hotdog-12.1-20220819-1955-OFFICIAL.zip/
    
     - name: unzip the ROM
       run: |
